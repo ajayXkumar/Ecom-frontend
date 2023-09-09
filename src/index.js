@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import { StoreProvider } from './Store';
 
 const root = createRoot(document.getElementById('root'));
+axios.defaults.baseURL = 'https://ecombackend-orf4.onrender.com';
 
 root.render(
   <React.StrictMode>
