@@ -5,7 +5,7 @@ import Rating from './Rating';
 import axios from 'axios';
 import { useContext } from 'react';
 import { Store } from '../Store';
-
+import "../index.css"
 function Product(props) {
   const { product } = props;
 
